@@ -165,3 +165,24 @@ pip-log.txt
 
 # Mac crap
 .DS_Store
+
+#########
+# EAGLE #
+#########
+
+#ignore eagle Backup files
+*.[bsl]#?
+
+#ignore pdf and pictures in eagle directory
+firmware/eagle/*/*.png
+firmware/eagle/*/*.pdf
+firmware/eagle/*/*.svg
+firmware/eagle/*/*.xcf
+
+#ignoreing local backup directory
+firmware/eagle/*/OLD/*
+
+#ignoring eagle setting files
+firmware/eagle/*/*.epf
+firmware/eagle/*/*.pro
+firmware/eagle/*.epf
