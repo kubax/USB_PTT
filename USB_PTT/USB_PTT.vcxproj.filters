@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="opendevice.cpp">
+      <Filter>Quellcode</Filter>
+    </ClCompile>
+    <ClCompile Include="USB_PTT.cpp">
+      <Filter>Quellcode</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Error_codes.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="opendevice.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="USB_PTT.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="USB_PTT_Functions.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{4b11321b-4062-4c29-9864-2a6716f6d6ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quellcode">
+      <UniqueIdentifier>{8da39212-4e4a-42ab-b520-a8a24725fbb1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
