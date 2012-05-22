@@ -1,4 +1,4 @@
-
+﻿
 #################
 ## Eclipse
 #################
@@ -46,6 +46,8 @@ local.properties
 # Build results
 **/[Dd]ebug/
 **/[Rr]elease/
+[Dd]ebug/
+[Rr]elease/
 *_i.c
 *_p.c
 *.ilk
